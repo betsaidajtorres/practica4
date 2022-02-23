@@ -47,3 +47,45 @@ li{
 li:hover{
     background-color: rgb(115, 85, 199);
 }
+.box-search input {
+    border: 1px solid #241d565c;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 6px;
+} 
+header{
+    text-align: center;
+    width: auto;
+    height: 30%;
+}
+.holder {
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    justify-content: space-evenly;
+}
+h6{
+    margin: 5% auto;
+}
+
+h1{
+    margin: 0 auto;
+}
+h5{
+    margin: 5% auto;
+}
+.holder .boton{
+    padding: 10px;
+    border: 1px solid rgb(115, 85, 199);
+    border-radius: 5px;
+}
+.boton.uno{
+    color: white;
+    background-color: rgb(115, 85, 199);
+}
+.boton.dos{
+    color: rgb(115, 85, 199);
+}
+.boton:hover{
+    background-color: rgb(167, 136, 255);
+}
