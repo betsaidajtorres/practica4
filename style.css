@@ -11,6 +11,9 @@ body{
     justify-content: space-around;
     align-items: center;
     color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 ul{
     list-style-type: none;
@@ -106,13 +109,12 @@ h5{
     height: 300px;
     display: flex;
     margin-bottom: 10%;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .contenedor img{
-    max-height: 300;
-    display: inherit;
-    max-width: 100%;
-    min-width: auto;
-    min-height: 76px;
+    width: 12%;
+
 }
 footer{
     height: 250px;
