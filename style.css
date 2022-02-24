@@ -167,9 +167,6 @@ footer{
     nav{
         z-index: 9999;
     }
-    body {
-      background-color: lightblue;
-    }
     .links {
         width: 90%;
     }
@@ -183,9 +180,11 @@ footer{
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+        transition: 1.0s;
     }
     .contenedor img{
         width: 50%;
+        margin: 2% auto;;
     }
     .contenedor img:hover{
         width: 55%;
