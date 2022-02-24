@@ -64,8 +64,8 @@ header{
 }
 .holder {
     display: flex;
-    margin: 0 auto;
-    width: 30%;
+    margin: 5% auto;
+    width: 40%;
     justify-content: space-evenly;
 }
 h6{
@@ -86,9 +86,6 @@ h5{
     color: rgb(143, 143, 143);
     font-weight: 400;
     font-size: 20px;
-}
-.holder{
-    margin-bottom: 5%;
 }
 .holder .boton{
     padding: 10px;
@@ -125,10 +122,7 @@ h5{
     -webkit-filter: blur(0) grayscale(0);
 	filter: blur(0) grayscale(0);
 }
-/*ul li a:hover .icon {
-  color: #fff;
-  transform: rotateY(360deg);
-}*/
+
 footer{
     height: 250px;
     width: 100%;
@@ -142,7 +136,7 @@ footer{
     }
 
 .links{
-    width: 25%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -166,4 +160,36 @@ footer{
 .redes-footer img:hover{
     transform: scale(1.2);
     transition: all .3s ease-in-out;
+}
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) {
+    nav{
+        z-index: 9999;
+    }
+    body {
+      background-color: lightblue;
+    }
+    .links {
+        width: 90%;
+    }
+    .holder{
+        width: 100%;
+    }
+    .contenedor {
+        height: 100%;
+        display: flex;
+        margin-bottom: 10%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .contenedor img{
+        width: 50%;
+    }
+    .contenedor img:hover{
+        width: 55%;
+        -webkit-filter: blur(0) grayscale(0);
+        filter: blur(0) grayscale(0);
+    }
 }
